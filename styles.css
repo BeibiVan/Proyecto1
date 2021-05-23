@@ -61,6 +61,13 @@ h1 {position: relative;
     animation-iteration-count: 1;
     animation-direction: reverse;}
 
+    @keyframes animacion {
+        0%   { left:0px; top:0px;}
+        25%  { left:200px; top:0px;}
+        50%  { left:200px; top:0px;}
+        75%  { left:0px; top:0px;}
+        100% { left:0px; top:0px;}
+      }
 
 p   {margin: 3% 5% 3% 5%;}
 
